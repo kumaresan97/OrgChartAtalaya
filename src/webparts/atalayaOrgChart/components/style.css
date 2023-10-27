@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+#workbenchPageContent {
+  max-width: 100%;
+}
+
+.content_3f3fd3c2,
+.CanvasZone {
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+
+.report-style-class {
+  height: 100vh;
+}
+
+/* orgChart styles start */
+
+#tree {
+  height: 650px !important;
+}
+
+.boc-edit-form {
+  z-index: 2;
+  margin: 10px 0 0 0 !important;
+}
+
+.boc-edit-form-header {
+  background-color: #a98044 !important;
+  border-radius: 0 !important;
+  height: 185px !important;
+}
+
+.boc-edit-form-avatar {
+  width: 130px !important;
+  height: 130px !important;
+}
+.boc-edit-form-avatar img {
+  object-fit: cover !important;
+}
+
+.node rect {
+  fill: #fff0db !important;
+  stroke: #a9804470 !important;
+}
+
+.node .olivia-f0 {
+  fill: #a98044 !important;
+  font-weight: 600 !important;
+}
+.node .olivia-f1 {
+  font-weight: 500 !important;
+}
+.boc-edit-form-instruments {
+  /* margin: 0 !important; */
+  min-height: 0 !important;
+}
+
+.boc-edit-form-instruments .boc-img-button {
+  display: none !important;
+}
+
+.boc-form-field .boc-input .hasval {
+  margin: 0 0 4px 0 !important;
+}
+
+.boc-input {
+  margin: 0 0 5px 0 !important;
+}
+
+.boc-input input {
+  font-size: 15px !important;
+  padding: 30px 10px 2px 9px !important;
+}
+
+.ms-BasePicker-text {
+  min-width: 260px !important;
+  height: 40px !important;
+  border: 1px solid #a98044 !important;
+  background-color: #fff !important;
+}
+
+.ms-BasePicker-text input {
+  height: 40px !important;
+}
+
+.ms-BasePicker-text::after {
+  border-color: #a98044 !important;
+}
+
+[data-l-id] path,
+[data-ctrl-ec-id] circle,
+[data-ctrl-ec-id] line {
+  stroke: #a98044 !important;
+}
+
+[data-ctrl-menu],
+[data-ctrl-n-menu-id] {
+  display: none;
+}

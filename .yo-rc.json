@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "atalaya-org-chart",
+    "libraryId": "a49ba75c-62f2-4c9b-a6c5-e565fc8604e5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "atalaya-org-chart",
+    "solutionShortDescription": "atalaya-org-chart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
